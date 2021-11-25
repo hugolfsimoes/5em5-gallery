@@ -1,11 +1,13 @@
 import React from 'react';
+import * as C from './App.styles';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      aaaaaaaaaaaaaaaaa
-    </div>
+    <C.Container>
+      <C.Area>
+        <C.Header>Galeria de Fotos</C.Header>
+      </C.Area>
+    </C.Container>
   );
 }
 
-export default App;
